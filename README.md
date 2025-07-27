@@ -1,13 +1,50 @@
-# React + Vite
+# Google Flight Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ⚠️ API Status Notice
 
-Currently, two official plugins are available:
+This project uses **RapidAPI** for flight data. Currently experiencing API limitations:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **API Provider**: RapidAPI (Free Tier)
+- **Current Status**: Free quota exhausted
+- **Error Code**: 429 (Too Many Requests)
+- **Impact**: Live flight data is temporarily unavailable
 
-## Expanding the ESLint configuration
+### What this means:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Google-Flight-Clone
+- The application interface works perfectly
+- Flight search functionality is temporarily limited
+- APIs will return 429 errors until quota resets or upgraded plan
+
+### To fix this:
+
+1. **Upgrade RapidAPI Plan**: Purchase a paid plan for higher quota limits
+2. **Wait for Reset**: Free tier quotas typically reset monthly
+3. **Alternative APIs**: Consider switching to other flight data providers
+
+---
+
+## About This Project
+
+This is a Google Flights clone built with React and Vite, demonstrating modern web development practices and API integration.
+
+### Features
+
+- ✅ Modern React UI
+- ✅ Responsive design
+- ✅ Flight search interface
+- ⚠️ Live flight data (limited by API quota)
+
+### Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- RapidAPI Integration
+
+### Live Demo
+
+🌐 **[View Live Site](https://m-asad-jamshad.github.io/Google-Flight-Clone/)**
+
+---
+
+_Note: This is a demonstration project. API limitations are due to free tier restrictions, not application functionality._
